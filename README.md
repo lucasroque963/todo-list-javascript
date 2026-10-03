@@ -58,4 +58,4 @@ Projeto desenvolvido com o objetivo de praticar os fundamentos do desenvolviment
 
 ## 👨‍💻 Autor
 
-Lucas Roque de Medeiros
+**Lucas Roque de Medeiros**
