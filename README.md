@@ -8,6 +8,10 @@ O projeto permite adicionar, concluir, excluir e filtrar tarefas de forma simple
 
 🔗 [Clique aqui para acessar a To-Do List](https://lucasroque963.github.io/todo-list-javascript/)
 
+## 📸 Preview
+
+![Preview da To-Do List](assets/preview.png)
+
 ## 🚀 Funcionalidades
 
 - Adicionar novas tarefas
