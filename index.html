@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Lista de Tarefas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Lista de Tarefas</h1>
+
+        <section class="area-tarefa">
+
+            <h2>Adicionar Tarefa</h2>
+
+            <form
+                class="formulario"
+                id="form-tarefa"
+            >
+
+                <label for="input-tarefa">
+                    Tarefa
+                </label>
+
+                <input
+                    type="text"
+                    id="input-tarefa"
+                    placeholder="Digite sua tarefa"
+                    autocomplete="off"
+                    required
+                >
+
+                <button type="submit">
+                    Adicionar
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section class="lista-tarefas">
+
+            <div class="cabecalho-lista">
+
+                <h2>Suas Tarefas</h2>
+
+                <p id="contador">
+                    0 tarefas
+                </p>
+
+            </div>
+
+
+            <div class="filtros">
+
+                <button
+                    class="filtro ativo"
+                    data-filtro="todas"
+                >
+                    Todas
+                </button>
+
+                <button
+                    class="filtro"
+                    data-filtro="pendentes"
+                >
+                    Pendentes
+                </button>
+
+                <button
+                    class="filtro"
+                    data-filtro="concluidas"
+                >
+                    Concluídas
+                </button>
+
+            </div>
+
+
+            <ul id="lista"></ul>
+
+            <p
+                id="mensagem-vazia"
+                class="mensagem-vazia"
+            >
+                Nenhuma tarefa encontrada.
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
