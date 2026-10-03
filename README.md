@@ -1,15 +1,19 @@
 # ✅ To-Do List
 
-Aplicação de lista de tarefas desenvolvida com HTML, CSS e JavaScript.
+Aplicação de lista de tarefas desenvolvida com **HTML, CSS e JavaScript**, com armazenamento de dados no navegador utilizando LocalStorage.
 
-O projeto permite adicionar, concluir, excluir e filtrar tarefas, além de salvar os dados no navegador utilizando LocalStorage.
+O projeto permite adicionar, concluir, excluir e filtrar tarefas de forma simples e responsiva.
+
+## 🌐 Projeto online
+
+🔗 [Clique aqui para acessar a To-Do List](https://lucasroque963.github.io/todo-list-javascript/)
 
 ## 🚀 Funcionalidades
 
-- Adicionar tarefas
+- Adicionar novas tarefas
 - Excluir tarefas
 - Marcar tarefas como concluídas
-- Filtrar tarefas por status
+- Filtrar entre todas, pendentes e concluídas
 - Contador de tarefas
 - Salvamento automático com LocalStorage
 - Adicionar tarefas pressionando Enter
@@ -22,7 +26,7 @@ O projeto permite adicionar, concluir, excluir e filtrar tarefas, além de salva
 - JavaScript
 - LocalStorage
 
-## 📚 Conceitos utilizados
+## 📚 Conceitos praticados
 
 - Manipulação do DOM
 - Eventos com `addEventListener`
@@ -33,17 +37,20 @@ O projeto permite adicionar, concluir, excluir e filtrar tarefas, além de salva
 - `JSON.stringify()`
 - `JSON.parse()`
 - LocalStorage
+- HTML semântico
 - Responsividade com Media Queries
 
 ## ▶️ Como executar
 
-1. Baixe ou clone este repositório.
+1. Clone este repositório.
 2. Abra a pasta do projeto.
 3. Abra o arquivo `index.html` no navegador.
 
-## 🎯 Objetivo
+Não é necessário instalar nenhuma dependência.
 
-Projeto desenvolvido com o objetivo de praticar JavaScript, manipulação do DOM, eventos e armazenamento de dados no navegador.
+## 🎯 Objetivo do projeto
+
+Projeto desenvolvido com o objetivo de praticar os fundamentos do desenvolvimento front-end utilizando JavaScript puro, especialmente manipulação do DOM, eventos e persistência de dados no navegador.
 
 ## 👨‍💻 Autor
 
